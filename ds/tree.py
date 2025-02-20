@@ -1,3 +1,4 @@
+from typing import Any
 from ds.queue import BasicQueue
 
 
@@ -7,7 +8,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
-    def insert(self, data):
+    def insert(self, data: Any) -> None:
         if self.data is None:
             self.data = data
         else:

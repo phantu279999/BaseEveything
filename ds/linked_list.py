@@ -65,7 +65,7 @@ class SimpleLinkedList:
             _temp = _temp.next
         return count
 
-    def traverse(self):
+    def traverse(self) -> None:
         _temp = self.head
         nodes = []
         while _temp.next:
